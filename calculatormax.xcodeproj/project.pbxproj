@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2DE5891CAB654E009CC2BD /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DE5881CAB654E009CC2BD /* Minecraft.ttf */; };
 		3A9DA09F1CA9C9010086974D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DA09E1CA9C9010086974D /* AppDelegate.swift */; };
 		3A9DA0A11CA9C9010086974D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DA0A01CA9C9010086974D /* ViewController.swift */; };
 		3A9DA0A41CA9C9010086974D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9DA0A21CA9C9010086974D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A2DE5881CAB654E009CC2BD /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 		3A9DA09B1CA9C9010086974D /* calculatormax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculatormax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9DA09E1CA9C9010086974D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9DA0A01CA9C9010086974D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		3A9DA09D1CA9C9010086974D /* calculatormax */ = {
 			isa = PBXGroup;
 			children = (
+				3A2DE5881CAB654E009CC2BD /* Minecraft.ttf */,
 				3A9DA09E1CA9C9010086974D /* AppDelegate.swift */,
 				3A9DA0A01CA9C9010086974D /* ViewController.swift */,
 				3A9DA0A21CA9C9010086974D /* Main.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				3A9DA0A91CA9C9010086974D /* LaunchScreen.storyboard in Resources */,
 				3A9DA0A61CA9C9010086974D /* Assets.xcassets in Resources */,
+				3A2DE5891CAB654E009CC2BD /* Minecraft.ttf in Resources */,
 				3A9DA0A41CA9C9010086974D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +489,7 @@
 				3A9DA0C51CA9C9010086974D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A9DA0C61CA9C9010086974D /* Build configuration list for PBXNativeTarget "calculatormaxTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				3A9DA0C81CA9C9010086974D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A9DA0C91CA9C9010086974D /* Build configuration list for PBXNativeTarget "calculatormaxUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				3A9DA0CB1CA9C9010086974D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
