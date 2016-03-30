@@ -54,8 +54,18 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="fqt-bd-xic">
-                                <rect key="frame" x="200" y="196" width="200" height="328"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-90-BYZ">
+                                <rect key="frame" x="188" y="109" width="224" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="1Nu-hs-vtk"/>
+                                    <constraint firstAttribute="width" constant="224" id="gqI-3j-wdD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="35"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="fqt-bd-xic">
+                                <rect key="frame" x="200" y="181" width="200" height="377"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Td3-oV-uVQ">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="52"/>
@@ -96,7 +106,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="1L9-ti-LQP">
-                                        <rect key="frame" x="0.0" y="69" width="200" height="52"/>
+                                        <rect key="frame" x="0.0" y="61" width="200" height="52"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcW-FV-fIV">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
@@ -134,7 +144,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="W9w-QM-vvg">
-                                        <rect key="frame" x="0.0" y="138" width="200" height="52"/>
+                                        <rect key="frame" x="0.0" y="122" width="200" height="52"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J1Y-8D-oKh">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
@@ -172,7 +182,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="qu9-5F-R22">
-                                        <rect key="frame" x="0.0" y="207" width="200" height="52"/>
+                                        <rect key="frame" x="0.0" y="183" width="200" height="52"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7f-XK-2rR">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
@@ -210,7 +220,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="5R5-cE-DAx">
-                                        <rect key="frame" x="0.0" y="276" width="200" height="52"/>
+                                        <rect key="frame" x="0.0" y="244" width="200" height="52"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2E-nS-6aa">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="52"/>
@@ -247,18 +257,19 @@
                                             </button>
                                         </subviews>
                                     </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GzK-OR-Pri">
+                                        <rect key="frame" x="0.0" y="305" width="200" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="72" id="FRX-yP-G0B"/>
+                                            <constraint firstAttribute="width" constant="200" id="pdb-k1-lH9"/>
+                                        </constraints>
+                                        <state key="normal" image="clear"/>
+                                        <connections>
+                                            <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BcT-5b-4xI"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-90-BYZ">
-                                <rect key="frame" x="188" y="109" width="224" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="1Nu-hs-vtk"/>
-                                    <constraint firstAttribute="width" constant="224" id="gqI-3j-wdD"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="35"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -299,6 +310,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
